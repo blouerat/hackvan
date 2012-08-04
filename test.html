@@ -13,28 +13,33 @@
 		<link rel="stylesheet" media="all" href="css/style_ajouts.css" />
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/js_ajout.js"></script>
 	</head>
 	<body>
 		<script>$('.carousel').carousel({
-      interval: false
-    });</script>
+		  interval: false
+		});</script>
 		<div id="myCarousel" class="carousel slide">
 			<div class="carousel-inner">
-				<div class="item">
+				<div class="item active" id="plan1">
 					<img src="img/bootstrap-mdo-sfmoma-01.jpg" alt="" class="images_carrousel_general" />
 					<div class="carousel-caption">
-						<h4>First Thumbnail label</h4>
-						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<h4>Permier niveaux! Vous devez trouver les objets suivant : </h4>
+						<p>
+							Une boussole <img src="img/icones/compass.png" alt="une boussole" id="item1_tofind_ok" />
+							et une ancre <img src="img/icones/anchor.png" alt="une ancre" id="item2_tofind_ok" />
+							
+						</p>
 					</div>
 				</div>
-				<div class="item active">
+				<div class="item"  id="plan2">
 					<img src="img/bootstrap-mdo-sfmoma-02.jpg" alt="" class="images_carrousel_general" />
 					<div class="carousel-caption">
 						<h4>Second Thumbnail label</h4>
 						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 					</div>
 				</div>
-				<div class="item">
+				<div class="item"  id="plan3">
 					<img src="img/bootstrap-mdo-sfmoma-03.jpg" alt="" class="images_carrousel_general" />
 					<div class="carousel-caption">
 						<h4>Third Thumbnail label</h4>
@@ -42,7 +47,13 @@
 					</div>
 				</div>
 			</div>
-
+			<img src="img/icones/compass.png" alt="compass" class="icones_find_me plan1_etage3" id="item1_tofind" />
+			<img src="img/icones/anchor.png" alt="anchor" class="icones_find_me plan1_etage3" id="item2_tofind" />
+			
+			
+			
+			
+			
 			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 		</div>

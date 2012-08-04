@@ -1,4 +1,35 @@
 img.images_carrousel_general
 {
+	/*width:100%;*/
+}
+div#myCarousel
+{
+}
+.item
+{
+	position:relative;
+}
+img.icones_find_me
+{
+	position:absolute;
+}
+img.images_carrousel_general
+{
 	width:100%;
+}
+
+
+
+/*LES ITEMS A TROUVER*/
+img#item1_tofind
+{
+	top:10%;
+	left:10%;
+	width:2%;
+}
+img#item2_tofind
+{
+	top:20%;
+	left:20%;
+	width:2%;
 }
