@@ -71,6 +71,17 @@ img.images_carrousel_general
 	text-align:center;
 }
 
+#lien_vers_infos
+{
+	position:absolute;
+	top:0;
+	right:0;
+}
+#lien_vers_infos a
+{
+	display:block;
+	margin:10px;
+}
 
 /*LES ITEMS A TROUVER*/
 img#ho_anchor
